@@ -1,0 +1,27 @@
+{
+  "name": "vuepress-theme-api-test1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "gitadd": "git add . && git commit -m \"update\" ",
+    "git": "npm run gitadd && git push origin master",
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LDQ-first/vuepress-theme-api-test1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LDQ-first/vuepress-theme-api-test1/issues"
+  },
+  "homepage": "https://github.com/LDQ-first/vuepress-theme-api-test1#readme",
+  "devDependencies": {
+    "vuepress": "^1.5.2",
+    "vuepress-theme-api": "^1.0.0-beta.9"
+  }
+}
