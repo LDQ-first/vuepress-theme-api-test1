@@ -1,1 +1,9 @@
-'# ²âÊÔ vuepress-theme-api' 
+---
+home: true
+title: vuepress-theme-api.
+description: æµ‹è¯•vuepress-theme-apiã€‚
+actionText: å¼€å§‹å‡ºå‘
+actionLink: /getting-started
+footer: Open Source on [GitHub](https://github.com/sqrthree/vuepress-theme-api), Made by [@sqrthree](https://github.com/sqrthree), Power by [vuepress](https://github.com/vuejs/vuepress).
+---
+

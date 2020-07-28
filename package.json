@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/LDQ-first/vuepress-theme-api-test1#readme",
   "devDependencies": {
-    "vuepress": "^1.5.0",
+    "vuepress": "^1.5.2",
     "vuepress-theme-api": "^1.0.0-beta.9"
   }
 }

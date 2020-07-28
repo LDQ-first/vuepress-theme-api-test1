@@ -1,3 +1,3 @@
-# 测试 vuepress-theme-api
+# 测试vuepress-theme-api
 
 
