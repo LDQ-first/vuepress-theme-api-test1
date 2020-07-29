@@ -189,20 +189,22 @@ module.exports = {
     title: 'Hello VuePress',
     description: '📦 🎨 A api-friendly theme for VuePress.',
     theme: 'api',
+    locales: {
+        '/': {
+            lang: 'zh-hans'
+        }
+    },
     head: [
         ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1' }],
         ['meta', { charset: 'utf-8' }],
     ],
     themeConfig: {
-        /* sidebarGroupOrder: [
-            'getting-started', // 分组名称，即文件夹名称
-            'configurations'
-        ], */
         sidebar: {
             'home': getHomeSidebar('主页'),
             '0-getting-started': getStartSidebar('主题起步'),
             '1-configurations': getConfigurationsSidebar('基本配置', '内置组件', '文件模板'),
         },
+        
         
     }
 }
