@@ -164,12 +164,12 @@ Button 组件可以使用在任何页面的任何地方。你可以用来指向�
 站内跳转：
 
 ```vue
-<Button to="/zh/">首页</Button>
+<Button to="/">首页</Button>
 ```
 
 效果如下：
 
-<Button to="/zh/">首页</Button>
+<Button to="/">首页</Button>
 
 <Example>
 
@@ -201,7 +201,7 @@ Button 组件可以使用在任何页面的任何地方。你可以用来指向�
 
 ## Section 组件
 
-`Section` 组件是一种特殊的布局形式，主要用于 [首页](/zh/#%E4%B8%BA-restful-api-%E8%80%8C%E7%94%9F)。具体效果可参考 [首页 | 为 RESTful API 而生](/zh/#%E4%B8%BA-restful-api-%E8%80%8C%E7%94%9F)。
+`Section` 组件是一种特殊的布局形式，主要用于 [首页](/#%E4%B8%BA-restful-api-%E8%80%8C%E7%94%9F)。具体效果可参考 [首页 | 为 RESTful API 而生](/#%E4%B8%BA-restful-api-%E8%80%8C%E7%94%9F)。
 
 | Name | Type | Description | Default |
 | :-: | :-: | :-: | :-: | :-: |
