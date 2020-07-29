@@ -200,8 +200,8 @@ module.exports = {
         ], */
         sidebar: {
             'home': getHomeSidebar('主页'),
-            'getting-started': getStartSidebar('主题起步'),
-            'configurations': getConfigurationsSidebar('基本配置', '内置组件', '文件模板'),
+            '0-getting-started': getStartSidebar('主题起步'),
+            '1-configurations': getConfigurationsSidebar('基本配置', '内置组件', '文件模板'),
         },
         
     }
