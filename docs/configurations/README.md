@@ -44,7 +44,7 @@ module.exports = {
 
 ## 首页配置
 
-主题内提供了一个首页（Homepage）的布局。正如你在 [这个文档](/zh/) 中所看到的那样。
+主题内提供了一个首页（Homepage）的布局。正如你在 [这个文档](/) 中所看到的那样。
 
 想要使用它，需要在你的根级 `README.md` 的 `YAML front matter` 指定 `home: true`。
 
@@ -135,13 +135,13 @@ themeConfig: {
   sidebar: {
     '分组名称': {
       title: '基本配置', // 导航项文字。
-      to: '/zh/configurations/', // 导航项链接地址。
+      to: '/configurations/', // 导航项链接地址。
 
       // 该分组下的其他导航项，默认展示。
       children: [
         {
           title: '内置组件',
-          to: '/zh/configurations/components.html',
+          to: '/configurations/components.html',
 
           // 该导航项所包含的子导航项，默认被折叠。用于展示某个页面的所有标题导航。
           headers: [
@@ -241,11 +241,11 @@ themeConfig: {
   sidebar: {
     configurations: {
       title: '基本配置',
-      to: '/zh/configurations/',
+      to: '/configurations/',
       children: [
         {
           title: '内置组件',
-          to: '/zh/configurations/components.html',
+          to: '/configurations/components.html',
           headers: [
             {
               title: 'Block 组件',
@@ -255,7 +255,7 @@ themeConfig: {
         },
         {
           title: '文件模板',
-          to: '/zh/configurations/template.html',
+          to: '/configurations/template.html',
           headers: []
         }
       ]
@@ -311,9 +311,9 @@ themeConfig: {
 
 ## 页面布局
 
-文档页默认采用普通形式（通栏）的布局结构，例如 [起步页面](/zh/getting-started/)。同时得益于 `VuePress` 的 [组件支持特性](https://vuepress.vuejs.org/zh/guide/using-vue.html#%E6%B5%8F%E8%A7%88%E5%99%A8%E7%9A%84-api-%E8%AE%BF%E9%97%AE%E9%99%90%E5%88%B6)，我们可以在 Markdown 文件中直接使用 Vue 组件。因此，我们可以轻松构造出本页面这种 `RESTful API` 友好的页面布局。
+文档页默认采用普通形式（通栏）的布局结构，例如 [起步页面](/getting-started/)。同时得益于 `VuePress` 的 [组件支持特性](https://vuepress.vuejs.org/zh/guide/using-vue.html#%E6%B5%8F%E8%A7%88%E5%99%A8%E7%9A%84-api-%E8%AE%BF%E9%97%AE%E9%99%90%E5%88%B6)，我们可以在 Markdown 文件中直接使用 Vue 组件。因此，我们可以轻松构造出本页面这种 `RESTful API` 友好的页面布局。
 
-要使用这种布局，需要了解主题内提供的几个组件。具体使用方式请参考 [内置组件](/zh/configurations/components.html)。
+要使用这种布局，需要了解主题内提供的几个组件。具体使用方式请参考 [内置组件](/configurations/components.html)。
 
 如果你觉得内置组件过于繁琐，也可以通过在文件顶部的 `YAML front matter` 中配置 `enhance: true` 启用**增强模式**。
 
